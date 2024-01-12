@@ -11,9 +11,19 @@ Console.WriteLine("Hello, World!");
 //int result = customerWealth.MaximumWealth(accounts);
 //Console.WriteLine($"Result : {result}");
 
-// this is 2496. Maximum Value of a String in an Array
-string[] array = { "5232", "yv", "22", "c", "yawgs", "928", "4003", "2" };
-var maxValueStrArray = new MaximumValueofStringArray2496();
-Console.WriteLine(maxValueStrArray.MaximumValue(array));
-//maxValueStrArray.IsLetters("90a");
-//Console.WriteLine(maxValueStrArray.SumOfDigits("452"));
+//// this is 2496. Maximum Value of a String in an Array
+//string[] array = { "5232", "yv", "22", "c", "yawgs", "928", "4003", "2" };
+//var maxValueStrArray = new MaximumValueofStringArray2496();
+//Console.WriteLine(maxValueStrArray.MaximumValue(array));
+////maxValueStrArray.IsLetters("90a");
+////Console.WriteLine(maxValueStrArray.SumOfDigits("452"));
+///
+
+int[] nums1 = [0], nums2 = [1];
+int m = 0, n = 1;
+var merge = new MergeSortedArray88();
+int[] nums = merge.Merge(nums1, m, nums2, n);
+for (int i = 0; i < nums.Length; i++)
+{
+    Console.WriteLine(nums[i]);
+}
