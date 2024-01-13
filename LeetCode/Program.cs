@@ -28,13 +28,21 @@ Console.WriteLine("Hello, World!");
 //    Console.WriteLine(nums[i]);
 //}
 
-// this is 1556. Thousand Separator
-var separator = new ThousandSeparator1556();
-string txt = "Hello, World!";
-Console.WriteLine(txt);
-txt.Remove(1, 3);
-Console.WriteLine(txt);
+//// this is 1556. Thousand Separator
+//var separator = new ThousandSeparator1556();
+//string txt = "Hello, World!";
+//Console.WriteLine(txt);
+//txt.Remove(1, 3);
+//Console.WriteLine(txt);
 
-int n = 123456789;
-string result = separator.ThousandSeparator(n);
-Console.WriteLine(result);
+//int n = 123456789;
+//string result = separator.ThousandSeparator(n);
+//Console.WriteLine(result);
+
+// this is 929. Unique Email Addresses
+var uniqueEmail = new UniqueEmailAddresses929();
+string[] emails = ["test.email+alex@leetcode.com", 
+    "test.e.mail+bob.cathy@leetcode.com", 
+    "testemail+david@lee.tcode.com"];
+int uniqueEmailAddresses = uniqueEmail.NumUniqueEmails(emails);
+Console.WriteLine(uniqueEmailAddresses);
