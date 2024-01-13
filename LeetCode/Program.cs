@@ -19,11 +19,22 @@ Console.WriteLine("Hello, World!");
 ////Console.WriteLine(maxValueStrArray.SumOfDigits("452"));
 ///
 
-int[] nums1 = [0], nums2 = [1];
-int m = 0, n = 1;
-var merge = new MergeSortedArray88();
-int[] nums = merge.Merge(nums1, m, nums2, n);
-for (int i = 0; i < nums.Length; i++)
-{
-    Console.WriteLine(nums[i]);
-}
+//int[] nums1 = [0], nums2 = [1];
+//int m = 0, n = 1;
+//var merge = new MergeSortedArray88();
+//int[] nums = merge.Merge(nums1, m, nums2, n);
+//for (int i = 0; i < nums.Length; i++)
+//{
+//    Console.WriteLine(nums[i]);
+//}
+
+// this is 1556. Thousand Separator
+var separator = new ThousandSeparator1556();
+string txt = "Hello, World!";
+Console.WriteLine(txt);
+txt.Remove(1, 3);
+Console.WriteLine(txt);
+
+int n = 123456789;
+string result = separator.ThousandSeparator(n);
+Console.WriteLine(result);
