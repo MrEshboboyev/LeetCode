@@ -39,10 +39,17 @@ Console.WriteLine("Hello, World!");
 //string result = separator.ThousandSeparator(n);
 //Console.WriteLine(result);
 
-// this is 929. Unique Email Addresses
-var uniqueEmail = new UniqueEmailAddresses929();
-string[] emails = ["test.email+alex@leetcode.com", 
-    "test.e.mail+bob.cathy@leetcode.com", 
-    "testemail+david@lee.tcode.com"];
-int uniqueEmailAddresses = uniqueEmail.NumUniqueEmails(emails);
-Console.WriteLine(uniqueEmailAddresses);
+//// this is 929. Unique Email Addresses
+//var uniqueEmail = new UniqueEmailAddresses929();
+//string[] emails = ["test.email+alex@leetcode.com", 
+//    "test.e.mail+bob.cathy@leetcode.com", 
+//    "testemail+david@lee.tcode.com"];
+//int uniqueEmailAddresses = uniqueEmail.NumUniqueEmails(emails);
+//Console.WriteLine(uniqueEmailAddresses);
+
+// this is 1859. Sorting the Sentence
+var sorting = new SortingSentence1859();
+string s = "Myself2 Me1 I4 and3";
+string result = sorting.SortSentence(s);
+//Print.PrintDictionary(dict);
+Console.WriteLine(result);
