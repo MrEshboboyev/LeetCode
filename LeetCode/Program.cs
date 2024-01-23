@@ -47,9 +47,19 @@ Console.WriteLine("Hello, World!");
 //int uniqueEmailAddresses = uniqueEmail.NumUniqueEmails(emails);
 //Console.WriteLine(uniqueEmailAddresses);
 
-// this is 1859. Sorting the Sentence
-var sorting = new SortingSentence1859();
-string s = "Myself2 Me1 I4 and3";
-string result = sorting.SortSentence(s);
-//Print.PrintDictionary(dict);
-Console.WriteLine(result);
+//// this is 1859. Sorting the Sentence
+//var sorting = new SortingSentence1859();
+//string s = "Myself2 Me1 I4 and3";
+//string result = sorting.SortSentence(s);
+////Print.PrintDictionary(dict);
+//Console.WriteLine(result);
+
+
+#region 1897. Redistribute Characters to Make All Strings Equal
+var stringEqual = new RedistributeCharacterstoMakeAllStringsEqual1897();
+string[] words = ["caaaaa", "aaaaaaaaa", "a", "bbb", "bbbbbbbbb", "bbb", "cc", "cccccccccccc", "ccccccc", "ccccccc", "cc", "cccc", "c", "cccccccc", "c"];
+//Dictionary<char, int> map = stringEqual.MakeEqual(words);
+//Print.PrintDictionary(map);
+bool res = stringEqual.MakeEqual(words);
+Console.WriteLine(res);
+#endregion
