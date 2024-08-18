@@ -71,9 +71,20 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(res);
 //#endregion
 
-#region 1991. Find the Middle Index in Array
-var middleIndex = new FindTheMiddleIndexInArray1991();
-int[] nums = [1, 7, 3, 6, 5, 6];
-int res = middleIndex.FindMiddleIndexSolution(nums);
-Console.WriteLine(res);
+//#region 1991. Find the Middle Index in Array
+//var middleIndex = new FindTheMiddleIndexInArray1991();
+//int[] nums = [1, 7, 3, 6, 5, 6];
+//int res = middleIndex.FindMiddleIndexSolution(nums);
+//Console.WriteLine(res);
+//#endregion
+
+#region 1403. Minimum Subsequence in Non-Increasing Order
+var subOrder = new MinimumSubsequenceInNon_IncreasingOrder1403();
+int[] nums = [4, 4, 7, 6, 7];
+IList<int> res = subOrder.MinSubsequenceSolution(nums);
+Console.WriteLine("Natijaviy array : ");
+foreach (var item in res)
+{
+    Console.Write(item + " ");
+}
 #endregion
