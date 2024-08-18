@@ -55,11 +55,18 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(result);
 
 
-#region 1897. Redistribute Characters to Make All Strings Equal
-var stringEqual = new RedistributeCharacterstoMakeAllStringsEqual1897();
-string[] words = ["caaaaa", "aaaaaaaaa", "a", "bbb", "bbbbbbbbb", "bbb", "cc", "cccccccccccc", "ccccccc", "ccccccc", "cc", "cccc", "c", "cccccccc", "c"];
-//Dictionary<char, int> map = stringEqual.MakeEqual(words);
-//Print.PrintDictionary(map);
-bool res = stringEqual.MakeEqual(words);
+//#region 1897. Redistribute Characters to Make All Strings Equal
+//var stringEqual = new RedistributeCharacterstoMakeAllStringsEqual1897();
+//string[] words = ["caaaaa", "aaaaaaaaa", "a", "bbb", "bbbbbbbbb", "bbb", "cc", "cccccccccccc", "ccccccc", "ccccccc", "cc", "cccc", "c", "cccccccc", "c"];
+////Dictionary<char, int> map = stringEqual.MakeEqual(words);
+////Print.PrintDictionary(map);
+//bool res = stringEqual.MakeEqual(words);
+//Console.WriteLine(res);
+//#endregion
+
+#region 724. Find Pivot Index
+var pivotIndex = new FindPivotIndex724();
+int[] nums = [1, 7, 3, 6, 5, 6];
+int res = pivotIndex.PivotIndex(nums);
 Console.WriteLine(res);
 #endregion
