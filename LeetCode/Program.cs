@@ -78,13 +78,21 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(res);
 //#endregion
 
-#region 1403. Minimum Subsequence in Non-Increasing Order
-var subOrder = new MinimumSubsequenceInNon_IncreasingOrder1403();
-int[] nums = [4, 4, 7, 6, 7];
-IList<int> res = subOrder.MinSubsequenceSolution(nums);
-Console.WriteLine("Natijaviy array : ");
-foreach (var item in res)
-{
-    Console.Write(item + " ");
-}
+//#region 1403. Minimum Subsequence in Non-Increasing Order
+//var subOrder = new MinimumSubsequenceInNon_IncreasingOrder1403();
+//int[] nums = [4, 4, 7, 6, 7];
+//IList<int> res = subOrder.MinSubsequenceSolution(nums);
+//Console.WriteLine("Natijaviy array : ");
+//foreach (var item in res)
+//{
+//    Console.Write(item + " ");
+//}
+//#endregion
+
+#region 1773. Count Items Matching a Rule
+var countMatches = new CountItemsMatchingARule1773();
+IList<IList<string>> items = [["phone", "blue", "pixel"], ["computer", "silver", "phone"], ["phone", "gold", "iphone"]];
+string ruleKey = "type", ruleValue = "phone";
+int res = countMatches.CountMatchesSolution(items, ruleKey, ruleValue);
+Console.WriteLine(res);
 #endregion
