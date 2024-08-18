@@ -64,9 +64,16 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(res);
 //#endregion
 
-#region 724. Find Pivot Index
-var pivotIndex = new FindPivotIndex724();
+//#region 724. Find Pivot Index
+//var pivotIndex = new FindPivotIndex724();
+//int[] nums = [1, 7, 3, 6, 5, 6];
+//int res = pivotIndex.PivotIndex(nums);
+//Console.WriteLine(res);
+//#endregion
+
+#region 1991. Find the Middle Index in Array
+var middleIndex = new FindTheMiddleIndexInArray1991();
 int[] nums = [1, 7, 3, 6, 5, 6];
-int res = pivotIndex.PivotIndex(nums);
+int res = middleIndex.FindMiddleIndexSolution(nums);
 Console.WriteLine(res);
 #endregion
