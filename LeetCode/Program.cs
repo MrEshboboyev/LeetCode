@@ -1,4 +1,5 @@
-﻿using MaximumStrongPairXORI2932;
+﻿using CountNumbersWithUniqueDigits357;
+using MaximumStrongPairXORI2932;
 
-int[] nums = [5, 6, 25, 30];
-Console.WriteLine(MaximumStrongPairXORI2932_Solution.MaximumStrongPairXor(nums));
+int n = 0;
+Console.WriteLine(CountNumbersWithUniqueDigits357_Solution.CountNumbersWithUniqueDigits(n));

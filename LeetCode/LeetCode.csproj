@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CountNumbersWithUniqueDigits357\CountNumbersWithUniqueDigits357.csproj" />
     <ProjectReference Include="..\MaximumStrongPairXORI2932\MaximumStrongPairXORI2932.csproj" />
   </ItemGroup>
 
